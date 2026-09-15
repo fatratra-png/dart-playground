@@ -1,4 +1,4 @@
-dynamic linearSearch(List list, dynamic target) {
+int linearSearch(List list, dynamic target) {
   for (int i = 0; i < list.length - 1; i++) {
     if (list[i] == target) {
       return i;
